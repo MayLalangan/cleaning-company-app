@@ -14,7 +14,7 @@ const benefits = [
   {
     icon: Award,
     title: "Quality Guaranteed",
-    description: "Not satisfied? We'll re-clean for free within 24 hours.",
+    description: "Not satisfied? We'll re-clean for free within 48 hours.",
   },
   {
     icon: ShieldCheck,
@@ -69,8 +69,8 @@ const Benefits = () => {
                   <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-white/20 flex items-center justify-center">
                     <Award className="w-12 h-12 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">5+ Years</h3>
-                  <p className="text-white/80">Of trusted service excellence</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">PRYL Certified</h3>
+                  <p className="text-white/80">Professional Cleaning Professionals</p>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Benefits = () => {
                   <div className="w-8 h-8 rounded-full bg-primary/60" />
                 </div>
               </div>
-              <p className="text-sm font-medium text-foreground">Trusted by 500+ families</p>
+              <p className="text-sm font-medium text-foreground">Trusted by Home Owners</p>
             </div>
           </div>
         </div>

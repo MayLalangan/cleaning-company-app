@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 const plans = [
   {
     name: "Basic Clean",
-    price: 99,
+    price: 990,
     description: "Perfect for regular maintenance",
     features: [
       "All rooms dusted & vacuumed",
@@ -18,7 +18,7 @@ const plans = [
   },
   {
     name: "Deep Clean",
-    price: 199,
+    price: 1990,
     description: "Comprehensive top-to-bottom cleaning",
     features: [
       "Everything in Basic Clean",
@@ -32,7 +32,7 @@ const plans = [
   },
   {
     name: "Premium",
-    price: 299,
+    price: 2990,
     description: "The ultimate cleaning experience",
     features: [
       "Everything in Deep Clean",
@@ -90,7 +90,7 @@ const Pricing = () => {
               <CardContent className="text-center">
                 <div className="my-6">
                   <span className={`text-5xl font-bold ${plan.popular ? 'text-white' : 'text-foreground'}`}>
-                    ${plan.price}
+                    {plan.price} kr
                   </span>
                   <span className={plan.popular ? 'text-white/80' : 'text-muted-foreground'}>/visit</span>
                 </div>
@@ -113,12 +113,17 @@ const Pricing = () => {
                 <Button 
                   className="w-full" 
                   variant={plan.popular ? "secondary" : "default"}
+                  asChild
                 >
-                  Get Started
+                  <a href="#contact">Contact to Book</a>
                 </Button>
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="mt-12 text-center text-muted-foreground">
+          <p>Please note: We do not accept online payments. Call or message us to book your service.</p>
         </div>
       </div>
     </section>

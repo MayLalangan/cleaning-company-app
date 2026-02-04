@@ -64,7 +64,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-3 text-background/70">
-              <li>(555) 123-4567</li>
+              <li>+46 769060301</li>
               <li>hello@cleanspace.com</li>
               <li>Mon-Sat: 9am - 4pm</li>
             </ul>

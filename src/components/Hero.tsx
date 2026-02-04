@@ -40,37 +40,16 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-white text-teal-700 hover:bg-white/50 font-semibold px-8"
+              asChild
             >
-              Book a Cleaning
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
-
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-white/40 text-white bg-white/20"
-            >
-              See Our Services
+              <a href="#services">
+                See Our Services
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </a>
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 max-w-xl mx-auto">
-            <div>
-              <div className="text-3xl md:text-4xl font-bold text-white">500+</div>
-              <div className="text-sm text-white/60">Homes Cleaned</div>
-            </div>
 
-            <div>
-              <div className="text-3xl md:text-4xl font-bold text-white">4.9★</div>
-              <div className="text-sm text-white/60">Average Rating</div>
-            </div>
-
-            <div>
-              <div className="text-3xl md:text-4xl font-bold text-white">100%</div>
-              <div className="text-sm text-white/60">Satisfaction Guaranteed</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
