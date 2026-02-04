@@ -37,7 +37,7 @@ const Contact = () => {
             Ready for a Cleaner Home?
           </h2>
           <p className="text-muted-foreground text-lg mb-12">
-            Get in touch for a free quote or to schedule your first cleaning. We typically respond within 2 hours.
+            Get in touch for a free quote or to schedule your first cleaning. We typically respond within 1 hour.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-8 justify-center text-left max-w-2xl mx-auto">
