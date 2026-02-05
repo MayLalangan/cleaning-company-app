@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button
               size="lg"
               className="bg-white text-teal-700 hover:bg-white/50 font-semibold px-8"

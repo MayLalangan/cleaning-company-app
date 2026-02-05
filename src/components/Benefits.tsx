@@ -1,4 +1,4 @@
-import { Check, Clock, Users, Award, ShieldCheck, Recycle } from "lucide-react";
+import { Check, Users, Award, Recycle } from "lucide-react";
 
 const benefits = [
   {
@@ -7,19 +7,9 @@ const benefits = [
     description: "Our team undergoes rigorous training and background checks.",
   },
   {
-    icon: Clock,
-    title: "Flexible Scheduling",
-    description: "Book at your convenience with easy online scheduling.",
-  },
-  {
     icon: Award,
     title: "Quality Guaranteed",
     description: "Not satisfied? We'll re-clean for free within 48 hours.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Fully Insured",
-    description: "Complete peace of mind with comprehensive insurance coverage.",
   },
   {
     icon: Recycle,
